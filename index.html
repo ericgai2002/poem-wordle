@@ -66,7 +66,7 @@ const msg=$('#message');
 const lenInfo=$('#lengthInfo');
 function $(sel){return document.querySelector(sel);} 
 /***************** 游戏核心 *****************/
-let answer='',answerLen=0,attempts=0;const MAX=6;
+let answer='',answerLen=0,attempts=0;const MAX=20;
 function initDifficulty(){
   $('#easyBtn').onclick=()=>start('easy');
   $('#hellBtn').onclick=()=>start('hell');
